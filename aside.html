@@ -1,0 +1,136 @@
+---
+layout: music
+cv: passive
+notes: passive
+contact: passive
+description: Ksenia Proкоfieva is a Front-End Developer, Digital Publisher living in Moscow.
+lang: en
+ref: index
+---
+
+    <div class="container">
+    <div class="row">
+        <div class="col-md-3">
+		
+		
+		
+		<aside class="app-link">
+  <div class="app-link--header">
+    
+      <div class="logo" style="background: url(https://storage.googleapis.com/gd-wagtail-prod-assets/original_images/icon-generic-alt.png) center; background-size: contain;"></div>
+    
+    <div class="app-link--name">
+      <a href="https://design.google/library/podcasts/" data-g-category="outbound links" data-g-action="page interaction" data-g-label="outbound link: Podcasts" target="_self">Съемка и монтаж видео</a></div>
+  </div>
+  <div class="app-information">
+    
+      Небольшие видео, которые снимала и монтировала я. </div>
+      
+    
+
+    <div class="app-link--description">  </div>
+    
+  
+</aside>
+		
+		
+		
+		
+		
+        </div>
+        <div class="col-md-6">
+
+            <!-- .welcome_bar -->
+            <div class="welcome_bar">
+                <ul class="square-categories">
+                    <li> <a href="/notes/">все<span class="badge-category-all"></span> </a></li>
+                    <li> <a href="/notes/razrabotka.html">разработка<span class="badge-category-razrabotka disabled"></span> </a> </li>
+                    <li> <a href="/notes/video.html">видео<span class="badge-category-video"></span></a> </li>
+                    <li> <a href="/notes/medtech.html">медтех<span class="badge-category-medtech"></span></a> </li>
+                    <li> <a href="/notes/music.html">музыка<span class="badge-category-music"></span></a> </li>
+                </ul>
+            </div>
+            <!-- /.welcome_bar -->
+        </div>
+        <div class="col-md-3">
+        </div>
+    </div>
+    <!-- /.row -->
+
+<div class="row">
+<div class="col-md-3">
+</div>	
+	
+
+	
+	
+	<div class="col-md-6 page-content">
+	{% for post in site.posts %}
+  {% if post.categories contains 'разработка' %}        
+	<div class="media">
+	  <div class="media-left media-top">
+            {% if post.thumbnail %}
+            <img class="posts-list-image rounded" src="{{ post.thumbnail }}" alt="{{ post.title }}" /> {% endif %}        </div>
+    
+	   <div class="media-body">
+	<h5 class="media-heading"><a href="{{post.url | prepend: site.baseurl}}">{{post.title}}</a>	</h5> 
+       
+<div class="metabox-d">{{ post.date | date:"%d.%m.%Y"}}
+                    </div>
+       
+       {{post.excerpt | normalize_whitespace | remove: '	<br>' | remove: '<p>' | remove: '<figcaption>' |  strip_newlines | truncatewords: 20 }}
+            
+	
+       
+   <div class="metabox-t">
+                                {% if post.tags.size > 0 %} Tag{% if post.tags.size > 1 %}s{% endif %}: {{ post.tags | sort | join: " | " }}            
+                    {% endif %}
+
+                    </div>    
+       
+       
+       
+       
+       
+       
+       
+       
+       
+	</div>
+       </div>
+							<hr>
+          {% endif %}
+          {% endfor %}
+
+        
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+						
+					
+<div class="col-md-3">
+</div>
+	
+	</div>
+	
+	</div>

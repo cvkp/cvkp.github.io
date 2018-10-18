@@ -1,0 +1,31 @@
+aside {
+    
+    color: rgb(117, 117, 117);
+    font: normal normal 400 normal 14px / 20px Roboto, sans-serif;
+    
+}
+
+
+.app-link .app-link--header .logo {
+    border-radius: 50%;
+    width: 44px;
+    height: 44px;
+    background-size: 38px;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.app-link .app-link--header .app-link--name {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 18px;
+    margin-left: 8px;
+}
+
+.app-link {
+
+    width: 25%;
+    margin-left: 32px;
+}

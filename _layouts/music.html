@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+{% include head.html %}
+  
+
+<body>
+    
+     
+    <div class="container-fluid">
+   
+        <div class="row">
+            <div class="col-md-3">
+               
+            </div>
+            <div class="col-md-6">
+                {% include header.html %}
+            </div>
+            <!-- /md-6 -->
+            <div class="col-md-3">
+                
+            </div>
+        </div>
+        <!-- /row -->
+      
+      
+
+        <div class="row">
+            
+                {{ content }}
+    
+                        
+        </div>
+        <!-- /row -->
+
+        <div class="row">
+            <div class="col-md-3">
+                
+            </div>
+            <div class="col-md-6">
+                {% include footer.html %}
+            </div>
+            <!-- /md-6 -->
+            <div class="col-md-3">
+                
+            </div>
+        </div>
+        <!-- /row -->
+
+    </div>
+    <!-- /container -->
+
+    {% include scripts.html %}
+
+</body>
+</html>
