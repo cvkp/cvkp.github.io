@@ -1,9 +1,7 @@
 permalink: /notes/:year/:month/:day/:title
 markdown: kramdown
-categories: [медтех, блог, программирование]
 paginate: 7
 paginate_path: "/categories/:num/"
-
 gems:
 - jekyll-paginate
 - jekyll-feed
