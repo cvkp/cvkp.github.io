@@ -335,41 +335,9 @@ span.label-category {
 
 /* LANGUAGE-SELECTOR */
 
-ul#languages li {
-  display: inline;
+.eng {
+    width: 25px;
 }
-
-ul#languages {
-  float: right;
-  display: inline-block;
-}
-
-a.ru {
-  background-position: 0 -996px;
-  top: 1px;
-  position: relative;
-  min-width: 22px;
-  height: 16px;
-  min-height: 16px;
-  max-height: 16px;
-  background-repeat: no-repeat;
-  display: inline-block;
-  background-image: url(languages/languages.png);
-}
-
-a.en {
-  background-position: 0 -596px;
-  top: 1px;
-  position: relative;
-  min-width: 22px;
-  height: 16px;
-  min-height: 16px;
-  max-height: 16px;
-  background-repeat: no-repeat;
-  display: inline-block;
-  background-image: url(languages/languages.png);
-}
-
 
 
 /* Single Post Image */
