@@ -339,6 +339,13 @@ span.label-category {
     width: 25px;
 }
 
+.eng + p {
+    
+    text-transform: capitalize;
+    display: inline;
+  
+}
+
 
 /* Single Post Image */
 
