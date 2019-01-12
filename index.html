@@ -1,5 +1,4 @@
 ---
-layout: default
 title: CV
 home: passive
 cv: active
@@ -11,8 +10,17 @@ ref: cv
 ---
 
 
-
-
+<!DOCTYPE html>
+<html lang="en">
+	
+	{% include head.html %}
+	
+	<body>
+		<div class="container">
+			
+			{% include header.html %}
+			
+		
 
 <div class="cv">
         
@@ -133,3 +141,17 @@ ref: cv
 
 
 </div>
+                        
+                        
+                        
+                        
+                        {% include footer.html %}
+		
+		</div> <!-- /container -->
+	
+	
+		{% include scripts.html %}
+	
+	</body>
+
+</html>
