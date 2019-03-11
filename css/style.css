@@ -644,4 +644,7 @@ display:inline;
     margin: 0;
     padding: 0;
     color: #999;
+  padding: 20px;
+border: 4px dashed #00BCD4;
+background: #fff;
 }
