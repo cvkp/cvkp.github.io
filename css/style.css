@@ -13,10 +13,15 @@
     padding-top: 20px;
     padding-bottom: 40px;
     font-family: 'Merriweather', Georgia, Times;
-    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAAE0lEQVQIW2N48+bNfxhggLPwcgDQbi+YlZXTEQAAAABJRU5ErkJggg==);
+     background: #fff url(/images/bub-confetti.png) 0px 0px repeat;
     position: relative;
     min-height: 100vh;
   }
+
+.container {
+    
+    background: #ffffff;
+}
 
 @media only screen and (min-width : 768px) {
     body {
@@ -633,3 +638,10 @@ display:inline;
     font-size: 2em;
 }
 
+
+.skills {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    color: #999;
+}
