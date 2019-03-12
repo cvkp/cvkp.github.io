@@ -647,4 +647,10 @@ display:inline;
   padding: 20px;
 border: 4px dashed #00BCD4;
 background: #fff;
+  clear: both;
+}
+
+.cv .btn {
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
