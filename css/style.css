@@ -698,3 +698,6 @@ background: #fff;
     margin-bottom: 30px;
 }
 
+#Root .footer {
+    border-top: none;
+}
