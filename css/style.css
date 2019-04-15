@@ -692,12 +692,24 @@ background: #fff;
 
 #Root .header h3 {
     margin-top: 20px;
+  margin-bottom: 0;
+line-height: 40px;
+padding-bottom: 19px;
+letter-spacing: .5px;
+margin-top: 1.25em;
+font-weight: 700;
+font-size: 1em;
+color: #2ea2cc;
 }
 
 #Root .header {
     margin-bottom: 30px;
+  background: #fff url(/images/bub-confetti.png) 0px 0px repeat;
 }
 
 #Root .footer {
     border-top: none;
 }
+
+
+
