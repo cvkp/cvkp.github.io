@@ -47,6 +47,13 @@
 
 .pageHeading {
     padding-bottom: 64px;
+    padding-top: 64px;
+  
+}
+
+.pageHeading__second {
+    padding-bottom: 64px;
+    padding-top: 64px;
   
 }
 
