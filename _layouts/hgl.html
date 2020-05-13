@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+
+<body>  
+     {% include head.html %}
+
+
+
+
+
+<div class="container-fluid h-100">
+    <div class="row h-100">
+        <!-- left sidebar -->
+        <div class="col-md-2 fixed">
+
+        </div>
+        <!-- center content -->
+        <div class="col fluid d-flex flex-column">
+     {% include headerlarge.html %}
+
+            <!-- main content -->
+            <div class="row flex-grow">
+
+
+     {{ content }}
+            </div>
+
+            <footer class="navbar navbar-toggleable-xl navbar-faded navbar-light">
+            </footer>
+
+        </div>
+        <!-- right sidebar -->
+        <div class="col-md-2 fixed">
+
+        </div>
+    </div>
+</div>
+
+    {% include scripts.html %}
+
+</body>
+</html>
