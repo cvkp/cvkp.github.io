@@ -836,6 +836,7 @@ color: #2ea2cc;
        font-size: 16px;
     
     line-height: 20px;
+   margin: 0;
    
 
 }
@@ -843,7 +844,7 @@ color: #2ea2cc;
 
 .mh-contributor__role {
     
-font-size: 14px;
+font-size: 16px;
 
 line-height: 18px;
 }
