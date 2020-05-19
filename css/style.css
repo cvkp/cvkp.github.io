@@ -484,7 +484,16 @@ span.label-category {
 
 /* Bootstrap Utilities */
 
-/* Custom, iPhone Retina */
+/* Custom, i
+
+
+
+
+
+
+
+
+ne Retina */
 
 @media only screen and (min-width: 320px) {
   .media, .media-body {
@@ -656,9 +665,10 @@ img.round {
 
 .mh-details__contributors-title {
     
-    font-size: .875rem;
+    font-size: 16px;
     
-    line-height: 1.125rem;
+    line-height: 20px;
+   
 }
  .mh-contributor__name {
    
@@ -668,9 +678,9 @@ img.round {
 }
 .mh-contributor__role {
     
-    font-size: .875rem;
-  
-    line-height: 1.125rem;
+font-size: 14px;
+
+line-height: 18px;
 }
 
 
