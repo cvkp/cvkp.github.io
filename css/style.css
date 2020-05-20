@@ -808,6 +808,7 @@ color: #2ea2cc;
     margin-bottom: 20px;
     overflow: auto;
     color: #404040;
+  text-transform: none;
 }
 
 
