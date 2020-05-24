@@ -133,8 +133,9 @@
     letter-spacing: 1.25px;
     text-transform: uppercase;
     line-height: 1.5;
-    color: #202124;
-    font: normal normal 500 normal 14px / 22px "Google Sans", Roboto, Arial, Helvetica, sans-serif;    
+
+    font: normal normal 500 normal 14px / 22px "Google Sans", Roboto, Arial, Helvetica, sans-serif;
+    color: #999999;
     }
 
  .footer-border {
