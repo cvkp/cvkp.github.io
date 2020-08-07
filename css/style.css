@@ -18,10 +18,12 @@
     min-height: 100vh;
   }
 
-.container {
-    
-    background: #ffffff;
+
+.container.cv_main {
+    box-shadow: 7px 9px 17px rgba(0, 0, 0, 54%);
+  background: #ffffff;
 }
+
 
 @media only screen and (min-width : 768px) {
     body {
