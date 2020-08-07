@@ -25,6 +25,15 @@
 }
 
 
+.cv_main .header {
+    width: 90%;
+    margin: 30px auto;
+        margin-bottom: 30px;
+    margin-bottom: 30px;
+    
+    margin-bottom: 0px;
+}
+
 @media only screen and (min-width : 768px) {
     body {
     font-size: 16px;    
