@@ -870,4 +870,8 @@ line-height: 18px;
     margin-top: -10px;
 }
 
+.cv-links a {
+    margin-top: 8px;
+    color: #d74d2f;
+}
 
