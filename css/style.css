@@ -840,9 +840,20 @@ color: #2ea2cc;
 
 .mh-simple-image__img {
     border-radius: 50%;
-    max-width: 56px;
+   
     overflow: hidden;
+
+    border-radius: 50%;
+    max-width: 76px;
+    
+    border: 5px solid #f3f3f3;
+    box-shadow: 1px 1px 2px #666;
+   
 }
+
+
+
+
 
 
  .mh-contributor__name {
