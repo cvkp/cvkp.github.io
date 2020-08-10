@@ -870,8 +870,20 @@ line-height: 18px;
     margin-top: -10px;
 }
 
+
+
+
 .cv-links a {
+  margin-top: 8px;
+    color: #d74d2f;
+  
+  
     margin-top: 8px;
     color: #d74d2f;
+    display: inline-block;
+    margin-right: 20px;
+   
+    padding: 2px 6px;
+    border: 1px solid rgba(122,201,237,.4);
+    background: rgba(122,201,237,.1);
 }
-
